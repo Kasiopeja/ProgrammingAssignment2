@@ -1,7 +1,9 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Matrix inversion is usually a costly computation and their may be some
+## benefit to caching the inverse of a matrix rather than compute it repeatedly
+## These functions cache the inverse of a matrix.
 
-##The function makeCacheMatrix creates a list containing a function to
+
+## The function makeCacheMatrix creates a list containing a function to
 ## 1. set the value of the vector
 ## 2. get the value of the vector
 ## 3. set the value of the mean
